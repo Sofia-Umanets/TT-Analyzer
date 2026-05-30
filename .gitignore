@@ -1,0 +1,46 @@
+# --- Data (videos and annotations are private) ---
+/data/
+
+# --- Trained model weights ---
+/models/
+
+# --- Generated outputs ---
+outputs/
+
+# --- Python ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# --- Frontend build ---
+web/frontend/node_modules/
+web/frontend/dist/
+web/frontend/build/
+
+# --- Coursework documents ---
+*.docx
+coursework_full.md
+kursovaya_5_semestr.txt
+pasport_template.txt
+PROJECT_DESCRIPTION.md
+*.~lock.*
+Паспорт*
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / temp ---
+*.log
+*.tmp
